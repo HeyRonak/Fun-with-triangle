@@ -14,6 +14,7 @@ function checkTriangle(){
     var val2 = Number(inputs[1].value);
     var val3 = Number(inputs[2].value);
 
+    
     if(  val1 === 0 || val2 === 0 || val3 === 0){
         outputEle.innerText=  "Please ! Enter all fields.";
     }else if(val1 < 0 || val2 < 0 || val3 < 0){

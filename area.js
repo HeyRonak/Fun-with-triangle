@@ -12,9 +12,9 @@ function CalculateArea(){
     var base = Number(inputs[0].value);
     var height = Number(inputs[1].value);
 
-    if(base === 0 || height === 0){
+    if(inputs[0].value === "" || inputs[1].value === ""){
         output.innerText = "Please! enter both fields.";  
-    }else if(base < 0 || height < 0){
+    }else if(base <= 0 || height <= 0){
         output.innerText = "Enter valid data.";
     }else{
         area = CalculateValues( base,height );

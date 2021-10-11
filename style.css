@@ -1,0 +1,62 @@
+body{
+    margin: 0px;
+}
+
+.nav{
+    background-color: cadetblue;
+    padding: 1rem;
+}
+
+.link-style{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.link-style:hover{
+    text-decoration: underline;
+}
+
+.list-non-bullets{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    margin: 0rem 1rem;
+    
+}
+
+.nav-pills{
+    text-align: right;
+}
+
+.active{
+    font-weight: bold;
+}
+
+
+
+/* content */
+
+.container{
+    text-align: center;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+.angle_input , .side_input , .input_field{
+    display: block;
+    margin: 0rem auto;
+    padding: 0.4rem;
+    border: 0.2rem solid black;
+}
+
+
+button{
+    padding: 0.5rem;
+    font-weight: bold;
+    background-color: cadetblue;
+    cursor: pointer;
+}
+

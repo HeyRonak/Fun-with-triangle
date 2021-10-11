@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Area of triangle  </title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        label{
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        button{
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="nav">
+        <ul class="list-non-bullets nav-pills">
+            <li class="list-item-inline"><a class="link-style" href="index.html" > IsTriangle ?</a></li>
+            <li class="list-item-inline"><a class="link-style" href="quiz.html">Quiz  </a></li>
+            <li class="list-item-inline"><a class="link-style" href="hypotenuse.html"> Hypotenuse </a></li>
+            <li class="list-item-inline active"><a class="link-style" href="TriangleArea.html"> Area </a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+
+        <h1>Check area of triangle</h1>
+    
+        <h3 style="text-decoration: underline;"> Area of triangle is = 1/2(base*height) </h3>
+
+        <label for="base"> Base </label>
+        <input type="number" class="input_field"><br>
+
+        <label for="height"> Height  </label>
+        <input type="number" class="input_field">
+
+        <button id="btn"> Check Area</button>
+
+        <h3 class="output"></h3>
+
+    </div>
+
+    <script src="area.js"></script>
+
+</body>
+</html>

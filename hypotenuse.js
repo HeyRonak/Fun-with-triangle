@@ -16,8 +16,9 @@ function CalculateHypotenuse(){
     } else if( base <= 0 || height <= 0){
         output.innerText = "Enter valid inputs.";
     } else{
-        var sqaure = calculateSquares(  base , height );   
-        output.innerText = "Length of hypotenuse is : " +Math.sqrt(sqaure);
+        var sqaure = calculateSquares(  base , height ); 
+        var ans = Math.sqrt(sqaure);  
+        output.innerText = "Length of hypotenuse is : " + ans.toFixed(2);
     }
     
 }

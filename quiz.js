@@ -10,14 +10,21 @@ function CheckQuizAnswers(){
     var formResult  = new FormData(form);
     var i=0;
     var count=0;
-    for(var value of formResult.values()){
+
+    for(var value of formResult.values()){ 
         if(value === answer[i]){
             count++;
         }
         ++i;
     }
+
+    if(i === 5){
+        output.innerText = "Your total score is : " +count;
+    }else{
+        output.innerText = "please attempt all questions.";
+    }
     
-    output.innerText = "Your total score is : " +count;
+    
 
 }
 
